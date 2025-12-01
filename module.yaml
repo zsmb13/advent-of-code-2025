@@ -2,3 +2,9 @@ product: jvm/app
 
 dependencies:
   - org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0
+  - $compose.ui
+  - $compose.desktop.currentOs
+
+settings:
+  compose:
+    enabled: true
